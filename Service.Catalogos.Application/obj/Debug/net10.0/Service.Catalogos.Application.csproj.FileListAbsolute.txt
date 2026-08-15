@@ -1,0 +1,15 @@
+D:\TESIS\ANALISIS\source\Service.Catalogos\Service.Catalogos.Application\bin\Debug\net10.0\Service.Catalogos.Application.deps.json
+D:\TESIS\ANALISIS\source\Service.Catalogos\Service.Catalogos.Application\bin\Debug\net10.0\Service.Catalogos.Application.dll
+D:\TESIS\ANALISIS\source\Service.Catalogos\Service.Catalogos.Application\bin\Debug\net10.0\Service.Catalogos.Application.pdb
+D:\TESIS\ANALISIS\source\Service.Catalogos\Service.Catalogos.Application\bin\Debug\net10.0\Service.Catalogos.Domain.dll
+D:\TESIS\ANALISIS\source\Service.Catalogos\Service.Catalogos.Application\bin\Debug\net10.0\Service.Catalogos.Domain.pdb
+D:\TESIS\ANALISIS\source\Service.Catalogos\Service.Catalogos.Application\obj\Debug\net10.0\Service.Catalogos.Application.csproj.AssemblyReference.cache
+D:\TESIS\ANALISIS\source\Service.Catalogos\Service.Catalogos.Application\obj\Debug\net10.0\Service.Catalogos.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\TESIS\ANALISIS\source\Service.Catalogos\Service.Catalogos.Application\obj\Debug\net10.0\Service.Catalogos.Application.AssemblyInfoInputs.cache
+D:\TESIS\ANALISIS\source\Service.Catalogos\Service.Catalogos.Application\obj\Debug\net10.0\Service.Catalogos.Application.AssemblyInfo.cs
+D:\TESIS\ANALISIS\source\Service.Catalogos\Service.Catalogos.Application\obj\Debug\net10.0\Service.Catalogos.Application.csproj.CoreCompileInputs.cache
+D:\TESIS\ANALISIS\source\Service.Catalogos\Service.Catalogos.Application\obj\Debug\net10.0\Service..5669097E.Up2Date
+D:\TESIS\ANALISIS\source\Service.Catalogos\Service.Catalogos.Application\obj\Debug\net10.0\Service.Catalogos.Application.dll
+D:\TESIS\ANALISIS\source\Service.Catalogos\Service.Catalogos.Application\obj\Debug\net10.0\refint\Service.Catalogos.Application.dll
+D:\TESIS\ANALISIS\source\Service.Catalogos\Service.Catalogos.Application\obj\Debug\net10.0\Service.Catalogos.Application.pdb
+D:\TESIS\ANALISIS\source\Service.Catalogos\Service.Catalogos.Application\obj\Debug\net10.0\ref\Service.Catalogos.Application.dll
