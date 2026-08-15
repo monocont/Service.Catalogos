@@ -127,11 +127,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\TESIS\\ANALISIS\\source\\Service.Catalogos\\Service.Catalogos.Domain\\Service.Catalogos.Domain.csproj",
+      "projectUniqueName": "D:\\TESIS\\ANALISIS\\APP\\Backend\\Service.Catalogos\\Service.Catalogos.Domain\\Service.Catalogos.Domain.csproj",
       "projectName": "Service.Catalogos.Domain",
-      "projectPath": "D:\\TESIS\\ANALISIS\\source\\Service.Catalogos\\Service.Catalogos.Domain\\Service.Catalogos.Domain.csproj",
+      "projectPath": "D:\\TESIS\\ANALISIS\\APP\\Backend\\Service.Catalogos\\Service.Catalogos.Domain\\Service.Catalogos.Domain.csproj",
       "packagesPath": "C:\\Users\\marvi\\.nuget\\packages\\",
-      "outputPath": "D:\\TESIS\\ANALISIS\\source\\Service.Catalogos\\Service.Catalogos.Domain\\obj\\",
+      "outputPath": "D:\\TESIS\\ANALISIS\\APP\\Backend\\Service.Catalogos\\Service.Catalogos.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

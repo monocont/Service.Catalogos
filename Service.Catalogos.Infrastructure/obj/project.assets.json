@@ -1450,11 +1450,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\TESIS\\ANALISIS\\source\\Service.Catalogos\\Service.Catalogos.Infrastructure\\Service.Catalogos.Infrastructure.csproj",
+      "projectUniqueName": "D:\\TESIS\\ANALISIS\\APP\\BackEnd\\Service.Catalogos\\Service.Catalogos.Infrastructure\\Service.Catalogos.Infrastructure.csproj",
       "projectName": "Service.Catalogos.Infrastructure",
-      "projectPath": "D:\\TESIS\\ANALISIS\\source\\Service.Catalogos\\Service.Catalogos.Infrastructure\\Service.Catalogos.Infrastructure.csproj",
+      "projectPath": "D:\\TESIS\\ANALISIS\\APP\\BackEnd\\Service.Catalogos\\Service.Catalogos.Infrastructure\\Service.Catalogos.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\marvi\\.nuget\\packages\\",
-      "outputPath": "D:\\TESIS\\ANALISIS\\source\\Service.Catalogos\\Service.Catalogos.Infrastructure\\obj\\",
+      "outputPath": "D:\\TESIS\\ANALISIS\\APP\\BackEnd\\Service.Catalogos\\Service.Catalogos.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1476,11 +1476,11 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {
-            "D:\\TESIS\\ANALISIS\\source\\Service.Catalogos\\Service.Catalogos.Application\\Service.Catalogos.Application.csproj": {
-              "projectPath": "D:\\TESIS\\ANALISIS\\source\\Service.Catalogos\\Service.Catalogos.Application\\Service.Catalogos.Application.csproj"
+            "D:\\TESIS\\ANALISIS\\APP\\BackEnd\\Service.Catalogos\\Service.Catalogos.Application\\Service.Catalogos.Application.csproj": {
+              "projectPath": "D:\\TESIS\\ANALISIS\\APP\\BackEnd\\Service.Catalogos\\Service.Catalogos.Application\\Service.Catalogos.Application.csproj"
             },
-            "D:\\TESIS\\ANALISIS\\source\\Service.Catalogos\\Service.Catalogos.Domain\\Service.Catalogos.Domain.csproj": {
-              "projectPath": "D:\\TESIS\\ANALISIS\\source\\Service.Catalogos\\Service.Catalogos.Domain\\Service.Catalogos.Domain.csproj"
+            "D:\\TESIS\\ANALISIS\\APP\\BackEnd\\Service.Catalogos\\Service.Catalogos.Domain\\Service.Catalogos.Domain.csproj": {
+              "projectPath": "D:\\TESIS\\ANALISIS\\APP\\BackEnd\\Service.Catalogos\\Service.Catalogos.Domain\\Service.Catalogos.Domain.csproj"
             }
           }
         }

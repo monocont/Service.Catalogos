@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Service.Catalogos.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ef84ba446222cfe1710d0375487623be1faaf55c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Service.Catalogos.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Service.Catalogos.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
