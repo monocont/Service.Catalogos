@@ -21,7 +21,8 @@ public class ObtenerEstadosComprobanteQueryHandler : IRequestHandler<ObtenerEsta
         {
             Codigo = e.Codigo,
             Nombre = e.Nombre,
-            Descripcion = e.Descripcion
+            Descripcion = e.Descripcion,
+            AfectaIgv = e.AfectaIgv
         }).ToList();
     }
 }

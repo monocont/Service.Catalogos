@@ -88,7 +88,8 @@ public class CatalogosDbContext : DbContext
             entity.HasKey(e => e.Codigo);
             entity.Property(e => e.Codigo).HasColumnName("codigo").HasMaxLength(2).IsRequired();
             entity.Property(e => e.Nombre).HasColumnName("nombre").HasMaxLength(60).IsRequired();
-            entity.Property(e => e.Descripcion).HasColumnName("descripcion").HasMaxLength(200);
+            entity.Property(e => e.Descripcion).HasColumnName("descripcion").HasMaxLength(200).IsRequired();
+            entity.Property(e => e.AfectaIgv).HasColumnName("afecta_igv").IsRequired().HasDefaultValue(true);
         });
 
         modelBuilder.Entity<TipoDocIdentidad>(entity =>
