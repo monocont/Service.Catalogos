@@ -31,7 +31,7 @@ public class CatalogosDbContext : DbContext
             entity.ToTable("ubigeo");
             entity.HasKey(e => e.CodigoUbigeo);
             entity.Property(e => e.CodigoUbigeo).HasColumnName("codigo_ubigeo").HasMaxLength(6).IsRequired();
-            entity.Property(e => e.CodigoDepartamento).HasColumnName("codigo_departamento").HasMaxLength(2).IsRequired();
+            entity.Property(e => e.CodigoDepartamento).HasColumnName("codigo_departamento").HasMaxLength(10).IsRequired();
             entity.Property(e => e.Departamento).HasColumnName("departamento").HasMaxLength(100).IsRequired();
             entity.Property(e => e.CodigoProvincia).HasColumnName("codigo_provincia").HasMaxLength(4);
             entity.Property(e => e.Provincia).HasColumnName("provincia").HasMaxLength(100);
@@ -86,7 +86,7 @@ public class CatalogosDbContext : DbContext
         {
             entity.ToTable("estado_comprobante");
             entity.HasKey(e => e.Codigo);
-            entity.Property(e => e.Codigo).HasColumnName("codigo").HasMaxLength(2).IsRequired();
+            entity.Property(e => e.Codigo).HasColumnName("codigo").HasMaxLength(10).IsRequired();
             entity.Property(e => e.Nombre).HasColumnName("nombre").HasMaxLength(60).IsRequired();
             entity.Property(e => e.Descripcion).HasColumnName("descripcion").HasMaxLength(200).IsRequired();
             entity.Property(e => e.AfectaIgv).HasColumnName("afecta_igv").IsRequired().HasDefaultValue(true);
@@ -96,7 +96,7 @@ public class CatalogosDbContext : DbContext
         {
             entity.ToTable("tipo_doc_identidad");
             entity.HasKey(e => e.Codigo);
-            entity.Property(e => e.Codigo).HasColumnName("codigo").HasMaxLength(2).IsRequired();
+            entity.Property(e => e.Codigo).HasColumnName("codigo").HasMaxLength(10).IsRequired();
             entity.Property(e => e.Nombre).HasColumnName("nombre").HasMaxLength(60).IsRequired();
             entity.Property(e => e.LongitudMin).HasColumnName("longitud_min").IsRequired();
             entity.Property(e => e.LongitudMax).HasColumnName("longitud_max").IsRequired();
@@ -115,10 +115,10 @@ public class CatalogosDbContext : DbContext
         {
             entity.ToTable("tipo_cp");
             entity.HasKey(e => e.Codigo);
-            entity.Property(e => e.Codigo).HasColumnName("codigo").HasMaxLength(2).IsRequired();
+            entity.Property(e => e.Codigo).HasColumnName("codigo").HasMaxLength(10).IsRequired();
             entity.Property(e => e.Nombre).HasColumnName("nombre").HasMaxLength(60).IsRequired();
             entity.Property(e => e.Naturaleza).HasColumnName("naturaleza").HasColumnType("char(1)").IsRequired();
-            entity.Property(e => e.AplicaA).HasColumnName("aplica_a").HasMaxLength(2);
+            entity.Property(e => e.AplicaA).HasColumnName("aplica_a").HasMaxLength(10);
             entity.Property(e => e.Signo).HasColumnName("signo").HasColumnType("char(1)").HasDefaultValue('+');
         });
 
@@ -126,9 +126,9 @@ public class CatalogosDbContext : DbContext
         {
             entity.ToTable("tipo_nota");
             entity.HasKey(e => e.Codigo);
-            entity.Property(e => e.Codigo).HasColumnName("codigo").HasMaxLength(2).IsRequired();
+            entity.Property(e => e.Codigo).HasColumnName("codigo").HasMaxLength(10).IsRequired();
             entity.Property(e => e.Descripcion).HasColumnName("descripcion").HasMaxLength(200).IsRequired();
-            entity.Property(e => e.AplicaA).HasColumnName("aplica_a").HasMaxLength(2).IsRequired();
+            entity.Property(e => e.AplicaA).HasColumnName("aplica_a").HasMaxLength(10).IsRequired();
             entity.Property(e => e.Signo).HasColumnName("signo").HasColumnType("char(1)").HasDefaultValue('-');
         });
 

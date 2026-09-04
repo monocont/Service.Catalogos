@@ -1,5 +1,5 @@
 CREATE TABLE IF NOT EXISTS catalogo.estado_comprobante (
-    codigo          VARCHAR(2) NOT NULL,
+    codigo          VARCHAR(10) NOT NULL,
     nombre          VARCHAR(60) NOT NULL,
     descripcion     VARCHAR(200) NOT NULL,
     afecta_igv      BOOLEAN NOT NULL DEFAULT TRUE,

@@ -1,5 +1,5 @@
 CREATE TABLE IF NOT EXISTS catalogo.tipo_doc_identidad (
-    codigo          VARCHAR(2) NOT NULL,
+    codigo          VARCHAR(10) NOT NULL,
     nombre          VARCHAR(60) NOT NULL,
     longitud_min    SMALLINT NOT NULL,
     longitud_max    SMALLINT NOT NULL,

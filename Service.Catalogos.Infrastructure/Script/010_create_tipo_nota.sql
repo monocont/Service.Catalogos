@@ -1,7 +1,7 @@
 CREATE TABLE IF NOT EXISTS catalogo.tipo_nota (
-    codigo          VARCHAR(2) NOT NULL,
+    codigo          VARCHAR(10) NOT NULL,
     descripcion     VARCHAR(200) NOT NULL,
-    aplica_a        VARCHAR(2) NOT NULL,
+    aplica_a        VARCHAR(10) NOT NULL,
     signo           CHAR(1) NOT NULL DEFAULT '-',
 
     CONSTRAINT pk_tipo_nota PRIMARY KEY (codigo),

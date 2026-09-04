@@ -1,8 +1,8 @@
 CREATE TABLE IF NOT EXISTS catalogo.tipo_cp (
-    codigo          VARCHAR(2) NOT NULL,
+    codigo          VARCHAR(10) NOT NULL,
     nombre          VARCHAR(60) NOT NULL,
     naturaleza      CHAR(1) NOT NULL,
-    aplica_a        VARCHAR(2),
+    aplica_a        VARCHAR(10),
     signo           CHAR(1) NOT NULL DEFAULT '+',
 
     CONSTRAINT pk_tipo_cp PRIMARY KEY (codigo),
